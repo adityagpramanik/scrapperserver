@@ -1,0 +1,11 @@
+# python environment config
+.pyconfig
+
+# python package cache
+**/**/__pycache__
+
+# default local storage of Django
+db.sqlite3
+
+# environment secrets
+.env
