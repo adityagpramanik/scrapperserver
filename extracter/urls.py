@@ -5,4 +5,5 @@ app_name = 'extracter'
 
 urlpatterns = [
     path('github', views.github, name='github'),
+    path('extractResume', views.extractResume, name='extractResume'),
 ]

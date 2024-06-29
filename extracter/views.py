@@ -1,4 +1,6 @@
-from django.http import HttpResponse
+from pdfminer.high_level import extract_text
+import pydash as _
+from io import BytesIO
 from django.http import JsonResponse
 from django.views.decorators.csrf import csrf_exempt
 import json
@@ -27,3 +29,14 @@ def github(request):
 	else:
 		return JsonResponse({'error': 'Method not allowed for this endpoint'}, status=405)
 
+@csrf_exempt
+def extractResume(request):
+	if request.method !=  'POST':
+		return JsonResponse({'error': 'Method not allowed for this endpoint'}, status=405)
+
+	resume = request.FILES['file']
+	resume = resume.read()
+	text = extract_text(pdf_file=BytesIO(resume))
+
+	return JsonResponse({"result": _.compact(text.split('\n'))})
+	
