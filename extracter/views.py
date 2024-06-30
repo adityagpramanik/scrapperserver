@@ -3,6 +3,7 @@ from django.views.decorators.csrf import csrf_exempt
 import json
 from .spiders import github as _github
 from .helpers.fileextracter import extractTextFromPDFFile
+from .helpers.gemini import analyseResumeText
 
 @csrf_exempt
 def github(request):
@@ -33,4 +34,6 @@ def extractResume(request):
 		return JsonResponse({'error': 'Method not allowed for this endpoint'}, status=405)
 
 	resume = request.FILES['file']
-	return JsonResponse({"result": extractTextFromPDFFile(resume)})
+	resume_text = extractTextFromPDFFile(resume)
+	result = analyseResumeText(resume_text)
+	return JsonResponse({"result": result})
