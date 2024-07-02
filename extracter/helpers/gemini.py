@@ -35,5 +35,5 @@ def analyseResumeText(resume_text):
         result = result.replace('json', '', 1)
         result = result.replace('```', '')
         return json.loads(result)
-    except err:
+    except:
         return JsonResponse({'error': 'Unable to analyse resume text'}, status=403)
