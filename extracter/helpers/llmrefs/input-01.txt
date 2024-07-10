@@ -1,0 +1,211 @@
+{
+    "instruction": "Generate a JSON object strictly following the provided schema:",
+    "schema": {
+        "type": "object",
+        "properties": {
+            "name": {
+                "type": "string"
+            },
+            "contact": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "email": {
+                "type": "string"
+            },
+            "profiles": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "linkedin": {
+                            "type": "string"
+                        },
+                        "github": {
+                            "type": "string"
+                        },
+                        "twitter": {
+                            "type": "string"
+                        },
+                        "leetcode": {
+                            "type": "string"
+                        },
+                        "hackerrank": {
+                            "type": "string"
+                        },
+                        "codeforces": {
+                            "type": "string"
+                        },
+                    },
+                    "required": [
+                        
+                    ]
+                }
+            },
+            "experience": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "org": {
+                            "type": "string"
+                        },
+                        "startdate": {
+                            "type": "string",
+                            "format": "date"
+                        },
+                        "enddate": {
+                            "type": "string",
+                            "format": "date"
+                        },
+                        "keyskills": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "description": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "org",
+                        "startdate",
+                        "enddate",
+                        "keyskills",
+                        "description"
+                    ]
+                }
+            },
+            "skills": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "projects": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "startdate": {
+                            "type": "string",
+                            "format": "date"
+                        },
+                        "enddate": {
+                            "type": "string",
+                            "format": "date"
+                        },
+                        "keyskills": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "description": {
+                            "type": "string"
+                        },
+                        "url": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "org",
+                        "startdate",
+                        "enddate",
+                        "keyskills",
+                        "description",
+                        "url"
+                    ]
+                }
+            },
+            "achievements": {
+                "type": "array",
+                "items": {
+                    "type": "string"
+                }
+            },
+            "certifications": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "name": {
+                            "type": "string"
+                        },
+                        "startdate": {
+                            "type": "string",
+                            "format": "date"
+                        },
+                        "enddate": {
+                            "type": "string",
+                            "format": "date"
+                        },
+                        "keyskills": {
+                            "type": "array",
+                            "items": {
+                                "type": "string"
+                            }
+                        },
+                        "description": {
+                            "type": "string"
+                        },
+                        "url": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "org",
+                        "startdate",
+                        "enddate",
+                        "keyskills",
+                        "description",
+                        "url"
+                    ]
+                }
+            },
+            "leadership": {
+                "type": "array",
+                "items": {
+                    "type": "object",
+                    "properties": {
+                        "startdate": {
+                            "type": "string",
+                            "format": "date"
+                        },
+                        "enddate": {
+                            "type": "string",
+                            "format": "date"
+                        },
+                        "description": {
+                            "type": "string"
+                        }
+                    },
+                    "required": [
+                        "org",
+                        "startdate",
+                        "enddate",
+                        "description",
+                        "url"
+                    ]
+                }
+            }
+        },
+        "required": [
+            "name",
+            "contact",
+            "email",
+            "experience",
+            "skills",
+            "projects",
+            "achievements",
+            "certifications",
+            "leadership"
+        ]
+    }
+}

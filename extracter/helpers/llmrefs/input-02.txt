@@ -1,0 +1,207 @@
+Amit Kumar
+B.Tech in Computer Science and Engineering
+School of Studies in Engineering and Technology,
+Guru Ghasidas Vishwavidyalaya, Bilaspur
+A Central University established by the Central University Act 2009 No. 25 of 2009
+
++91 8825196831
+amitaryan19992017@gmail.com
+Linkedin/amit kumar 021
+GitHub/amitaryan1999
+
+Degree
+
+Graduation
+
+Intermediate
+
+Matriculation
+
+University
+
+Institute
+
+GGV Bilaspur
+
+Institute of Technology, GGV
+
+BSEB
+
+BSEB
+
+B.D.B.K.S. College, Araria
+
+Araria High School Araria, Araria
+
+Year
+
+2022
+
+2017
+
+2015
+
+CPI / %
+
+7.5/10.0
+
+64.2%
+
+69.2%
+
+EXPERIENCE _____________________________________________________________________
+
+Golden36garh | marketing manager | April 2020 – Ongoing
+
+● Golden36garh is a non-profitable media/press aimed to bring each news to the state.
+● Leading a team of  5 members under the guidance of the Chief Editor.
+
+Data Science | Internshala Trainings, Online | July 2020 – August 2020
+
+● Successfully completed a six weeks online certified training on Data Science.
+●
+
+The training consisted of Introduction to Data Science, Python for Data Science, Understanding the Statistics for Data
+Science and Predictive Modeling and Basics of Machine Learning modules.
+
+KEY PROJECTS __________________________________________________________________
+
+Set Treatment Priority of covid-19 patient | Python, Linear Regression| October 2020
+
+● This is a python project based on Machine Learning.
+● This will take the data of patients through web form as input and provide us a level of risk of being covid-19 in % form and
+
+decide which patient will be checked first.If risk % is high like- 70 %, 80% or above then patient priority is 1st .
+
+Data Analysis On Cyber Attack | Python | May 2021
+
+● This is a Cyber Attack project based on Machine Learning.
+●
+
+In this project we find cyber attack patterns on different-different ports and analysis the pattern and identify which type of
+attack mostly performs and on which system has been targeted by attackers.
+
+ACHIEVEMENTS _________________________________________________________________
+
+● Secured 3rd rank in “The Data Science challenge\" a Data Science contest held on Internshala.
+
+TECHNICAL SKILLS ______________________________________________________________
+
+● Languages: Python, C/C++, Java, SQL, HTML, CSS.
+● Technologies/Frameworks: WordPress, Wix, Bootstrap.
+● Developer Tools: VS Code, PyCharm.
+
+SOFT SKILLS ______________________________________________________________
+
+● Team Player, Decision Making, Leading, Time Management, and Pressure Handling.
+
+EXTRA CURRICULAR ______________________________________________________________
+
+● Worked as an Assistant Director in one Bollywood And one C.G movies.
+● Secured 1st rank in an event (mix n match) in Equilibrio 2K20, THE TECH-FESTt of SoS E&T,GGV,Bilaspur.
+● Completed acting course of one year in SKD Academy & Dramatic Arts, Bilaspur.
+
+\fAmit Kumar
+B.Tech in Computer Science and Engineering
+School of Studies in Engineering and Technology,
+Guru Ghasidas Vishwavidyalaya, Bilaspur
+A Central University established by the Central University Act 2009 No. 25 of 2009
+
++91 8825196831
+amitaryan19992017@gmail.com
+Linkedin/amit kumar 021
+GitHub/amitaryan1999
+
+Degree
+
+Graduation
+
+Intermediate
+
+Matriculation
+
+University
+
+Institute
+
+GGV Bilaspur
+
+Institute of Technology, GGV
+
+BSEB
+
+BSEB
+
+B.D.B.K.S. College, Araria
+
+Araria High School Araria, Araria
+
+Year
+
+2022
+
+2017
+
+2015
+
+CPI / %
+
+7.5/10.0
+
+64.2%
+
+69.2%
+
+EXPERIENCE _____________________________________________________________________
+
+Golden36garh | marketing manager | April 2020 – Ongoing
+
+● Golden36garh is a non-profitable media/press aimed to bring each news to the state.
+● Leading a team of  5 members under the guidance of the Chief Editor.
+
+Data Science | Internshala Trainings, Online | July 2020 – August 2020
+
+● Successfully completed a six weeks online certified training on Data Science.
+●
+
+The training consisted of Introduction to Data Science, Python for Data Science, Understanding the Statistics for Data
+Science and Predictive Modeling and Basics of Machine Learning modules.
+
+KEY PROJECTS __________________________________________________________________
+
+Set Treatment Priority of covid-19 patient | Python, Linear Regression| October 2020
+
+● This is a python project based on Machine Learning.
+● This will take the data of patients through web form as input and provide us a level of risk of being covid-19 in % form and
+
+decide which patient will be checked first.If risk % is high like- 70 %, 80% or above then patient priority is 1st .
+
+Data Analysis On Cyber Attack | Python | May 2021
+
+● This is a Cyber Attack project based on Machine Learning.
+●
+
+In this project we find cyber attack patterns on different-different ports and analysis the pattern and identify which type of
+attack mostly performs and on which system has been targeted by attackers.
+
+ACHIEVEMENTS _________________________________________________________________
+
+● Secured 3rd rank in “The Data Science challenge\" a Data Science contest held on Internshala.
+
+TECHNICAL SKILLS ______________________________________________________________
+
+● Languages: Python, C/C++, Java, SQL, HTML, CSS.
+● Technologies/Frameworks: WordPress, Wix, Bootstrap.
+● Developer Tools: VS Code, PyCharm.
+
+SOFT SKILLS ______________________________________________________________
+
+● Team Player, Decision Making, Leading, Time Management, and Pressure Handling.
+
+EXTRA CURRICULAR ______________________________________________________________
+
+● Worked as an Assistant Director in one Bollywood And one C.G movies.
+● Secured 1st rank in an event (mix n match) in Equilibrio 2K20, THE TECH-FESTt of SoS E&T,GGV,Bilaspur.
+● Completed acting course of one year in SKD Academy & Dramatic Arts, Bilaspur.
+
+\f

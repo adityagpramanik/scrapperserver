@@ -1,0 +1,49 @@
+```json
+{
+      "name": "Amit Kumar",
+  "contact": ["+91 8825196831"],
+  "email": "amitaryan19992017@gmail.com",
+  "experience": [
+        {
+          "org": "Golden36garh",
+      "startdate": "April 2020",
+      "enddate": "Ongoing",
+      "keyskills": [],
+      "description": "● Golden36garh is a non-profitable media/press aimed to bring each news to the state.
+● Leading a team of  5 members under the guidance of the Chief Editor."
+    },
+    {
+          "org": "Internshala Trainings",
+      "startdate": "July 2020",
+      "enddate": "August 2020",
+      "keyskills": [],
+      "description": "● Successfully completed a six weeks online certified training on Data Science.
+● The training consisted of Introduction to Data Science, Python for Data Science, Understanding the Statistics for Data Science and Predictive Modeling and Basics of Machine Learning modules."
+    }
+  ],
+  "skills": ["Python", "C/C++", "Java", "SQL", "HTML", "CSS", "WordPress", "Wix", "Bootstrap"],
+  "projects": [
+        {
+          "name": "Set Treatment Priority of covid-19 patient",
+      "startdate": "October 2020",
+      "enddate": null,
+      "keyskills": ["Python", "Linear Regression"],
+      "description": "● This is a python project based on Machine Learning.
+● This will take the data of patients through web form as input and provide us a level of risk of being covid-19 in % form and
+decide which patient will be checked first. If risk % is high like- 70 %, 80% or above then patient priority is 1st ."
+    },
+    {
+          "name": "Data Analysis On Cyber Attack",
+      "startdate": "May 2021",
+      "enddate": null,
+      "keyskills": ["Python"],
+      "description": "● This is a Cyber Attack project based on Machine Learning.
+● In this project we find cyber attack patterns on different-different ports and analysis the pattern and identify which type of
+attack mostly performs and on which system has been targeted by attackers."
+    }
+  ],
+  "achievements": ["Secured 3rd rank in “The Data Science challenge" a Data Science contest held on Internshala."],
+  "certifications": [],
+  "leadership": []
+}
+```
