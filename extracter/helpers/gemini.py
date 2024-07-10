@@ -23,17 +23,33 @@ model = genai.GenerativeModel(
 )
 
 def analyseResumeText(resume_text):
-    command = "given text is an extract from resume, analyse this text resume and categorize different sections in json format and rate each section out of 10 with reason for rating; text: "
-    chat_session = model.start_chat(history=[])
+    current_folder_path = os.path.dirname(os.path.abspath(__file__))
+    input_folder_path = os.path.join(current_folder_path, 'llmrefs')
+    
+    chat_session = model.start_chat(history=[
+      {
+        "role": "user",
+        "parts": [open(os.path.join(input_folder_path, "input-01.txt")).read()],
+      },
+      {
+        "role": "user",
+        "parts": [open(os.path.join(input_folder_path, "input-02.txt")).read()],
+      },
+      {
+        "role": "model",
+        "parts": [open(os.path.join(input_folder_path, "output-01.txt")).read()],
+      },
+    ])
 
     try:
-        response = chat_session.send_message(command + resume_text)
-        command = "correct this json and respond only and only in json without any formatting/text/comments: "
-
-        response = chat_session.send_message(command + response.text)
+        response = chat_session.send_message(resume_text)
         result = response.text
         result = result.replace('json', '', 1)
         result = result.replace('```', '')
+
+        command = "form and json response with signature: {}"
+        response = chat_session.send_message(command + response.text)
+
         return json.loads(result)
     except:
         return JsonResponse({'error': 'Unable to analyse resume text'}, status=403)
