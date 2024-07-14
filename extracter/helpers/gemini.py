@@ -47,9 +47,6 @@ def analyseResumeText(resume_text):
         result = result.replace('json', '', 1)
         result = result.replace('```', '')
 
-        command = "form and json response with signature: {}"
-        response = chat_session.send_message(command + response.text)
-
         return json.loads(result)
     except:
         return JsonResponse({'error': 'Unable to analyse resume text'}, status=403)
