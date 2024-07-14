@@ -1,5 +1,5 @@
 {
-    "instruction": "Generate a JSON object strictly following the provided schema:",
+    "instruction": "Generate a valid parsable JSON object strictly following the provided schema:",
     "schema": {
         "type": "object",
         "properties": {
@@ -21,27 +21,25 @@
                     "type": "object",
                     "properties": {
                         "linkedin": {
-                            "type": "string"
+                            "type": "string<url>"
                         },
                         "github": {
-                            "type": "string"
+                            "type": "string<url>"
                         },
                         "twitter": {
-                            "type": "string"
+                            "type": "string<url>"
                         },
                         "leetcode": {
-                            "type": "string"
+                            "type": "string<url>"
                         },
                         "hackerrank": {
-                            "type": "string"
+                            "type": "string<url>"
                         },
                         "codeforces": {
-                            "type": "string"
+                            "type": "string<url>"
                         },
                     },
-                    "required": [
-                        
-                    ]
+                    "required": ["linkedin", "github"]
                 }
             },
             "experience": {
@@ -193,6 +191,12 @@
                         "description",
                         "url"
                     ]
+                }
+            },
+            "links": {
+                "type": "array",
+                "items": {
+                    "type": "string<url>"
                 }
             }
         },
