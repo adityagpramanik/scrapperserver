@@ -25,8 +25,7 @@ model = genai.GenerativeModel(
 def analyseResumeText(resume_text):
     current_folder_path = os.path.dirname(os.path.abspath(__file__))
     input_folder_path = os.path.join(current_folder_path, 'llmrefs')
-    
-    chat_session = model.start_chat(history=[
+    history = [
       {
         "role": "user",
         "parts": [open(os.path.join(input_folder_path, "input-01.txt")).read()],
@@ -39,7 +38,8 @@ def analyseResumeText(resume_text):
         "role": "model",
         "parts": [open(os.path.join(input_folder_path, "output-01.txt")).read()],
       },
-    ])
+    ]
+    chat_session = model.start_chat(history=history)
 
     try:
         response = chat_session.send_message(resume_text)
